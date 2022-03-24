@@ -1,0 +1,60 @@
+https://geth.ethereum.org/downloads/
+https://medium.com/@Blockholic/build-private-geth-poa-ethereum-blockchain-network-714a93f5dc0d
+https://hackernoon.com/setup-your-own-private-proof-of-authority-ethereum-network-with-geth-9a0a3750cda8
+
+We are using Clique !!
+
+https://chainlist.org/
+
+
+
+
+geth --nousb --datadir=$pwd --syncmode 'full' --port 30311 --miner.gasprice 0 --miner.gastarget 470000000000 --http --http.addr 'localhost' --http.port 8546 --http.api admin,eth,miner,net,txpool,personal,web3 --mine --allow-insecure-unlock --unlock "0x44F1f91468E2EDF611B279576cabFB402d1cDd80" --password password.txt
+
+
+
+
+genesis creation
+///////////////////////////////////////////
+puppeth
+
+What would you like to do? (default = stats)
+ 1. Show network stats
+ 2. Configure new genesis
+ 3. Track new remote server
+ 4. Deploy network components
+> 2
+
+What would you like to do? (default = create)
+ 1. Create new genesis from scratch
+ 2. Import already existing genesis
+> 1
+
+Which consensus engine to use? (default = clique)
+ 1. Ethash - proof-of-work
+ 2. Clique - proof-of-authority
+> 2
+
+How many seconds should blocks take? (default = 15)
+> 5
+
+Which accounts are allowed to seal? (mandatory at least one)
+> 0x1304Aff2A9c1372D777b02C5c7aC237edcab8D6a
+> 0x44F1f91468E2EDF611B279576cabFB402d1cDd80
+> 0x
+
+Which accounts should be pre-funded? (advisable at least one)
+> 0x1304Aff2A9c1372D777b02C5c7aC237edcab8D6a
+> 0x44F1f91468E2EDF611B279576cabFB402d1cDd80
+> 0x
+
+Should the precompile-addresses (0x1 .. 0xff) be pre-funded with 1 wei? (advisable yes)
+> yes
+
+Specify your chain/network ID if you want an explicit one (default = random)
+>
+INFO [03-24|16:30:28.417] Configured new genesis block
+
+//node init
+geth --datadir node1/ init testfork.json
+
