@@ -1,2 +1,141 @@
-
+web3.eth.sendTransaction({from: eth.coinbase, to: '0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7', gasLimit: 6000000, gasPrice: 0, value: web3.toWei(1, 'ether')});
+clique.getSin
+clique.getSigner
+clique.getSigner()
+clique.proposals
+clique.proposals()
+clique.status
+clique.status()
+clique.getProposals()
+clique.getSigners()
+admin.peers
+eth.accounts
+web3.eth.sendTransaction({from: eth.coinbase, to: '0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7', gasLimit: 6000000, gasPrice: 0, value: web3.toWei(1, 'ether')});
+mine
+miner.start
+miner.start(1)
+web3.eth.sendTransaction({from: eth.coinbase, to: '0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7', gasLimit: 6000000, gasPrice: 0, value: web3.toWei(1, 'ether')});
+eth.accounts
+clique.getSigners()
+web3.eth.sendTransaction({from: eth.coinbase, to: '0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7', gasLimit: 6000000, gasPrice: 0, value: web3.toWei(1, 'ether')});
+clique.getSigners()
+web3.eth.sendTransaction({from: eth.coinbase, to: '0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7', gasLimit: 6000000, gasPrice: 0, value: web3.toWei(1, 'ether')});
+web3.eth.sendTransaction({from: eth.coinbase, to: '0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7', gasLimit: 6000000, gasPrice: 10, value: web3.toWei(1, 'ether')});
+web3.eth.sendTransaction({from: eth.coinbase, to: '0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7', gasLimit: 6000000, gasPrice: 10000, value: web3.toWei(1, 'ether')});
+web3.eth.sendTransaction({from: eth.coinbase, to: '0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7', gasLimit: 6000000, gasPrice: 100000, value: web3.toWei(1, 'ether')});
+eth.accounts
+web3.eth.sendTransaction({from: eth.coinbase, to: '0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7', gasLimit: 6000000, gasPrice: 100000, value: web3.toWei(1, 'ether')});
+eth.getBalance(eth.coinbase)
+eth.getBalance("0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7")
+web3.eth.sendTransaction({from: eth.coinbase, to: '0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7', gasLimit: 6000000, gasPrice: 100000, value: web3.toWei(0.1, 'ether')});
+net.listening
 net.peerCount
+admin.peers
+personal
+blockinfo
+eth.pendingTransactions
+web3.eth.sendTransaction({from: eth.coinbase, to: '0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7', gasLimit: 6000000, gasPrice: 100000, value: web3.toWei(0.1, 'ether')});
+web3.eth.sendTransaction({from: eth.coinbase, to: '0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7', gasLimit: 6000000, gasPrice: 10, value: web3.toWei(1, 'ether')});
+clique.getSnapshot()
+eth.accounts
+eth.getBalance("0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7")
+eth.coinbase
+eth.accounts
+eth.getBalance("0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7")
+eth.coinbase
+eth.getBalance(eth.coinbase)
+web3.eth.sendTransaction({from: eth.coinbase, to: '0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7', gasLimit: 6000000, gasPrice: 10, value: web3.toWei(1, 'ether')});
+web3.eth.sendTransaction({from: eth.coinbase, to: '0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7', gasLimit: 6000000, gasPrice: 1, value: web3.toWei(1, 'ether')});
+web3.eth.sendTransaction({from: eth.coinbase, to: '0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7', gasPrice: 0, value: web3.toWei(1, 'ether')});
+web3.eth.sendTransaction({from: eth.coinbase, to: '0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7', gasPrice: 0, value: web3.toWei(0.01, 'ether')});
+web3.eth.sendTransaction({from: eth.coinbase, to: '0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7', gasPrice: 0, value: web3.toWei(0.000001, 'ether')});
+admin.sleep
+admin.sleep()
+admin.sleep(1)
+eth.coinbase
+eth.getBalance(eth.coinbase)
+web3.eth.sendTransaction({from: eth.coinbase, to: '0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7', gasPrice: 0, value: web3.toWei(0.0001, 'ether')});
+eth.getBalance(eth.coinbase)
+web3.eth.sendTransaction({from: eth.coinbase, to: '0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7', gasPrice: 0, value: web3.toWei(0.0001, 'ether')});
+admin.sleep(1)
+eth.getBalance(eth.coinbase)
+web3.eth.sendTransaction({from: eth.coinbase, to: '0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7', gasPrice: 0, value: web3.toWei(0.0001, 'ether')});
+eth.getBalance(eth.coinbase)
+web3.eth.sendTransaction({from: eth.coinbase, to: '0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7', gasPrice: 0, value: web3.toWei(0.00001, 'ether')});
+eth.getBalance(eth.coinbase)
+admin.sleep(1)
+eth.getBalance(eth.coinbase)
+admin.sleepBlocks
+admin.sleepBlocks(1)
+eth.getBalance(eth.coinbase)
+web3.eth.sendTransaction({from: eth.coinbase, to: '0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7', gasPrice: 0, value: web3.toWei(0.00001, 'ether')});
+clique.getSnapshot
+clique.getSnapshot()
+eth.getBalance(eth.coinbase)
+web3.eth.sendTransaction({from: eth.coinbase, to: '0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7', gasPrice: 0, value: web3.toWei(0.00001, 'ether')});
+eth.getBalance(eth.coinbase)
+web3.eth.sendTransaction({from: eth.coinbase, to: '0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7', gasPrice: 0, value: web3.toWei(0.00001, 'ether')});
+eth.getBalance(eth.coinbase)
+web3.eth.sendTransaction({from: eth.coinbase, to: '0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7', gasPrice: 0, value: web3.toWei(0.00001, 'ether')});
+eth.getBalance(eth.coinbase)
+web3.eth.sendTransaction({from: eth.coinbase, to: '0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7', gasPrice: 0, value: web3.toWei(0.00001, 'ether')});
+eth.getBalance(eth.coinbase)
+web3.eth.sendTransaction({from: eth.coinbase, to: '0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7', gasPrice: 0, value: web3.toWei(0.00001, 'ether')});
+eth.getBalance(eth.coinbase)
+web3.eth.sendTransaction({from: eth.coinbase, to: '0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7', gasPrice: 0, value: web3.toWei(0.00001, 'ether')});
+eth.getBalance(eth.coinbase)
+web3.eth.sendTransaction({from: eth.coinbase, to: '0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7', gasPrice: 0, value: web3.toWei(0.00001, 'ether')});
+eth.getBalance(eth.coinbase)
+help
+web3
+eth.getBalance
+eth.getBalance()
+eth.getBalance(0xDe240d5Ff6461e9630458319013Cc72b4a48B20F)
+eth.getBalance("0xDe240d5Ff6461e9630458319013Cc72b4a48B20F")
+web3.eth.sendTransaction({from: eth.coinbase, to: '0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7', gasPrice: 0, value: web3.toWei(0.00001, 'ether')});
+eth.getBalance("0xDe240d5Ff6461e9630458319013Cc72b4a48B20F")
+web3.eth.sendTransaction({from: eth.coinbase, to: '0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7', gasPrice: 1, value: web3.toWei(0.00001, 'ether')});
+eth.coinbase
+eth.getBalance(eth.coinbase)
+web3.eth.sendTransaction({from: eth.coinbase, to: '0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7', gasPrice: 1, value: web3.toWei(0.00001, 'ether')});
+eth.getBalance(eth.coinbase)
+web3.eth.sendTransaction({from: eth.coinbase, to: '0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7', gasPrice: 1, value: web3.toWei(0.0000000000001, 'ether')});
+eth.getBalance(eth.coinbase)
+web3.eth.sendTransaction({from: eth.coinbase, to: '0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7', gasPrice: 1, value: web3.toWei(0.0000000000001, 'ether')});
+eth.getBalance(eth.coinbase)
+web3.eth.sendTransaction({from: eth.coinbase, to: '0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7', gasPrice: 1, value: web3.toWei(0.00000000000000001, 'ether')});
+eth.getBalance(eth.coinbase)
+web3.eth.sendTransaction({from: eth.coinbase, to: '0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7', gasPrice: 1, value: web3.toWei(0.000000000000000001, 'ether')});
+eth.getBalance(eth.coinbase)
+web3.eth.sendTransaction({from: eth.coinbase, to: '0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7', gasPrice: 1, value: web3.toWei(0.00000000000000001, 'ether')});
+eth.getBalance(eth.coinbase)
+web3.eth.sendTransaction({from: eth.coinbase, to: '0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7', gasPrice: 1, value: web3.toWei(0.000000000000000001, 'ether')});
+eth.getBalance(eth.coinbase)
+loadScript("register.js")
+loadScript("./register.js")
+loadScript("/home/burak/Desktop/fork/node1/register.js")
+loadScript("/home/burak/Desktop/fork/node1/register.js");
+web3.version
+web3.eth.Contract
+web3.eth
+web3.ethweb3.eth.Contract
+web3.eth.Contract
+new web3.eth.Contract
+new web3.eth.Contrweb3 = new Web3(web3.currentProvider);act
+web3 = new Web3(web3.currentProvider);
+web3.eth.Contract
+web3.eth.contract
+loadScript("/home/burak/Desktop/fork/node1/register.js");
+register
+loadScript("/home/burak/Desktop/fork/node1/register.js");
+register
+web3
+clear
+web3
+web3.version.api
+eth.getBalance(eth.coinbase)
+web3.eth.sendTransaction({from: eth.coinbase, to: '0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7', gasPrice: 1, value: web3.toWei(0.000000000000000001, 'ether')});
+eth.getBalance(eth.coinbase)
+eth.coinbase
+eth.getBalance(eth.coinbase)
+web3.toWei(0.000000000000000001, 'ether')

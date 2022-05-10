@@ -1,12 +1,22 @@
 https://geth.ethereum.org/downloads/
 https://medium.com/@Blockholic/build-private-geth-poa-ethereum-blockchain-network-714a93f5dc0d
 https://hackernoon.com/setup-your-own-private-proof-of-authority-ethereum-network-with-geth-9a0a3750cda8
+https://www.c-sharpcorner.com/article/setup-your-private-ethereum-network-with-geth2/
+https://geth.ethereum.org/docs/getting-started/private-net
+
+
+https://developers.rsk.co/kb/geth-attach-deploy-smart-contracts/
+https://ethereum.stackexchange.com/questions/73723/how-do-i-use-web3js-1-0-0-in-geth-1-9-0-i-want-to-import-an-account-whose-addre
+
 
 We are using Clique !!
 
 https://chainlist.org/
 
 
+go mod init github.com/ethereum/go-ethereum/accounts/abi/bind
+
+web3.eth.sendTransaction({from: eth.coinbase, to: '0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7', gasPrice: 0, value: "1"});
 
 
 geth --nousb --datadir=$pwd --syncmode 'full' --port 30311 --miner.gasprice 0 --miner.gastarget 470000000000 --http --http.addr 'localhost' --http.port 8546 --http.api admin,eth,miner,net,txpool,personal,web3 --mine --allow-insecure-unlock --unlock "0x44F1f91468E2EDF611B279576cabFB402d1cDd80" --password password.txt
@@ -55,6 +65,7 @@ Specify your chain/network ID if you want an explicit one (default = random)
 >
 INFO [03-24|16:30:28.417] Configured new genesis block
 
-//node init
+//create each node with same init file
 geth --datadir node1/ init testfork.json
 
+0.000000000000000001 is 1

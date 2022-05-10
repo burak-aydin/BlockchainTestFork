@@ -1,3 +1,11 @@
- make on this folder to run bootnode
+make on this folder to run bootnode
 
- make on node folders to run each node
+make on node folders to run each node
+
+
+dont use the make client for interaction, run node on seperate console and use it as shell.
+
+$ node
+.load client.js
+
+web3.eth.sendTransaction({from: '0x0ED18048aEdf85aA53c2453e329B3E3012Bf07a7', to: '0xDe240d5Ff6461e9630458319013Cc72b4a48B20F', gasPrice: 1, value: "1"});

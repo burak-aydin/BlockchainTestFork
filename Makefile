@@ -1,2 +1,2 @@
 run:
-	bootnode -nodekey boot.key -verbosity 9 -addr :30310
+	bootnode -nodekey bootnode.key -verbosity 9 -addr :30310
